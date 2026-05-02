@@ -17,7 +17,7 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
-  title: 'Sebastian | Cybersecurity Executive',
+  title: 'Sabastian | Cybersecurity Executive',
   description: 'Engineering Cyber Resilience for Mission-Critical Systems.',
 }
 

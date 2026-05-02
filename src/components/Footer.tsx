@@ -34,7 +34,7 @@ export function Footer() {
                     className="pt-8"
                 >
                     <a
-                        href="mailto:contact@sebastian.com"
+                        href="mailto:contact@sabastian.com"
                         className="inline-block px-10 py-4 border border-white/20 bg-white/5 backdrop-blur-sm text-white tracking-widest uppercase hover:bg-white hover:text-black transition-all duration-300"
                     >
                         Start a Conversation
@@ -43,7 +43,7 @@ export function Footer() {
             </div>
 
             <div className="absolute bottom-8 left-0 right-0 text-center text-xs text-white/20 uppercase tracking-widest">
-                &copy; {new Date().getFullYear()} Sebastian Professional. All Rights Reserved.
+                &copy; {new Date().getFullYear()} Sabastian Professional. All Rights Reserved.
             </div>
         </footer>
     );

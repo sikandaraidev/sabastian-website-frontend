@@ -27,7 +27,7 @@ export function Header() {
 
                 {/* Logo */}
                 <Link href="/" className="text-xl font-bold tracking-[0.2em] text-white uppercase group hover:text-white/80 transition-colors">
-                    Sebastian
+                    Sabastian
                 </Link>
 
                 {/* Navigation - Desktop */}
