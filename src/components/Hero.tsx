@@ -82,7 +82,7 @@ export function Hero() {
             </div>
 
             {/* ── DESKTOP layout (lg+) ── */}
-            <div className="hidden lg:flex relative z-20 w-full max-w-[90rem] mx-auto px-6 h-screen items-center">
+            <div className="hidden lg:flex relative z-20 w-full max-w-[90rem] mx-auto px-6 h-screen items-center pt-20">
 
                 {/* Left: Typography */}
                 <div className="flex-1 flex flex-col justify-center pr-12">
@@ -114,7 +114,7 @@ export function Hero() {
                 </div>
 
                 {/* Right: Visual */}
-                <div className="w-[36rem] xl:w-[42rem] relative h-[85vh] flex-shrink-0">
+                <div className="w-[32rem] xl:w-[38rem] relative h-[72vh] flex-shrink-0">
                     <motion.div
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
