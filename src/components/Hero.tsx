@@ -56,12 +56,14 @@ export function Hero() {
                                 src="/shared_leadership_Sabastian-Profile.png"
                                 alt="Sabastian - Cybersecurity Architect"
                                 fill
-                                className="object-cover object-top"
+                                className="object-contain object-center"
                                 priority
                             />
                         </div>
-                        {/* Gradient fade — top so text above stays readable, bottom blends into page */}
-                        <div className="absolute inset-0 bg-gradient-to-b from-void-black/30 via-transparent to-void-black z-10 pointer-events-none" />
+                        {/* Dark overlay covers the whole image area */}
+                        <div className="absolute inset-0 bg-void-black/40 z-10 pointer-events-none" />
+                        {/* Bottom fade blends into the next section */}
+                        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-void-black to-transparent z-10 pointer-events-none" />
                     </motion.div>
                 </div>
 
